@@ -9,6 +9,16 @@ window.addEventListener("load", () => {
   const images = [];
   let loadedImageCount = 0;
 
+  const imageUrls = [
+    new URL('./assets/img1.jpg', import.meta.url).href,
+    new URL('./assets/img2.jpg', import.meta.url).href,
+    new URL('./assets/img3.jpg', import.meta.url).href,
+    new URL('./assets/img4.jpg', import.meta.url).href,
+    new URL('./assets/img5.jpg', import.meta.url).href,
+    new URL('./assets/img6.jpg', import.meta.url).href,
+    new URL('./assets/img7.jpg', import.meta.url).href
+  ];
+
   function loadImages() {
     for (let i = 1; i <= 7; i++) {
       const img = new Image();
@@ -26,7 +36,7 @@ window.addEventListener("load", () => {
           initializeScene();
         }
       };
-      img.src = `./assets/img${i}.jpg`;
+      img.src = imageUrls[i - 1];
     }
   }
 
