@@ -1,7 +1,7 @@
-# 3d-scroll-effect-main
+# Nature Depicted
 
 ## Deployment
-[Link to Deployment]
+[Live Site](https://nature-depicted.vercel.app)
 
 ## Local Development
 To run the project locally:
