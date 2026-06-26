@@ -10,13 +10,13 @@ window.addEventListener("load", () => {
   let loadedImageCount = 0;
 
   const imageUrls = [
-    new URL('./assets/img1.jpg', import.meta.url).href,
-    new URL('./assets/img2.jpg', import.meta.url).href,
-    new URL('./assets/img3.jpg', import.meta.url).href,
-    new URL('./assets/img4.jpg', import.meta.url).href,
-    new URL('./assets/img5.jpg', import.meta.url).href,
-    new URL('./assets/img6.jpg', import.meta.url).href,
-    new URL('./assets/img7.jpg', import.meta.url).href
+    new URL('./assets/1.jpg', import.meta.url).href,
+    new URL('./assets/2.jpg', import.meta.url).href,
+    new URL('./assets/3.jpg', import.meta.url).href,
+    new URL('./assets/4.jpg', import.meta.url).href,
+    new URL('./assets/5.jpg', import.meta.url).href,
+    new URL('./assets/6.jpg', import.meta.url).href,
+    new URL('./assets/7.jpg', import.meta.url).href
   ];
 
   function loadImages() {
