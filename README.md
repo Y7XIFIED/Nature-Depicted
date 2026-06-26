@@ -18,8 +18,8 @@ Interact dynamically with your mouse or touch to explore the visual effects! Mov
 ### Setup Instructions
 1. Clone the repository:
 ```bash
-git clone https://github.com/Y7XIFIED/nature-depicted.git
-cd nature-depicted
+git clone https://github.com/Y7XIFIED/Nature-Depicted.git
+cd Nature-Depicted
 ```
 2. Install the package dependencies:
 ```bash
@@ -32,7 +32,7 @@ npm run dev
 
 ## 📂 Project Structure
 ```text
-nature-depicted/
+Nature-Depicted/
 ├── .gitignore
 ├── .vercel
 │   ├── project.json
